@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- testing using main class includes all methodes-->
+<suite name="MyTestSuite">
+  <test name="MyTest">
+    <classes>
+      <class name="com.linkedIn.tests.SearchTest"/>
+    </classes>
+  </test>
+</suite>
